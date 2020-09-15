@@ -1,0 +1,13 @@
+.box {
+  background-color: cyan;
+  height: 100px;
+  width: 100px;
+  animation-name: animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes animation {
+  0% {background-color: cyan;}
+  50% {background-color: red;}
+  100% {background-color: cyan;}
+}
