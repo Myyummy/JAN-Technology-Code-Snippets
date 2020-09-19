@@ -1,0 +1,37 @@
+.section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.one, .two, .three, .four {
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  margin: 8px;
+  background-color: red;
+  float: left;
+  transition-property: all;
+  transition-duration: 1s;
+} 
+
+.one:hover {
+  width: 100px;
+  height: 50px;
+}
+
+.two:hover {
+  width: 100px;
+  height: 50px;
+}
+
+.three:hover {
+  width: 100px;
+  height: 50px;
+}
+
+.four:hover {
+  width: 100px;
+  height: 50px;
+}
